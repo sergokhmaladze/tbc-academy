@@ -1,0 +1,26 @@
+#partnersContainer {
+  background-color: #2b2b2b;
+  width: 100%;
+  overflow: hidden;
+}
+
+#partners {
+  grid-template-rows: repeat(1, minmax(420px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  transition: transform .5s ease-in-out;
+  display: grid;
+}
+
+.slider-image {
+  width: 80%;
+}
+
+#partnersHeader {
+  color: #f4f4f4;
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 11%;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=index.2881820a.css.map */

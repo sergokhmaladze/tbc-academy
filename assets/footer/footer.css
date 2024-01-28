@@ -1,0 +1,60 @@
+footer {
+  margin: 0;
+  padding: 50px 0;
+  background: rgb(26 30 31);
+}
+.tbc-and-social {
+  margin-left: 12%;
+}
+
+.tbc-footer {
+  width: 106px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.facebook-footer,
+.youtube-footer {
+  width: 39px;
+  height: 39px;
+  margin-left: 67%;
+  cursor: pointer;
+}
+
+.youtube-footer {
+  margin-left: 1%;
+}
+
+.copyright,
+.terms {
+  color: white;
+  margin: 2% 0 0 12%;
+}
+.terms span {
+  margin-left: 58%;
+  border: solid;
+  padding: 7px 30px;
+  width: 70px;
+  border-radius: 6px;
+  background-color: rgb(57, 169, 218);
+  border-color: rgb(57, 169, 218);
+  font-size: 18px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.terms span:hover {
+  background: whitesmoke;
+  color: black;
+  border-color: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+.terms a {
+  text-decoration: none;
+  color: white;
+}
+
+.terms a:hover {
+  color: rgb(182, 178, 178);
+  transition: all 0.3s ease-out;
+}

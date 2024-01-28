@@ -1,0 +1,101 @@
+/* #partnersContainer {
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  overflow: hidden;
+}
+
+#partnersContainer img {
+  width: 20%;
+  padding: 0 6.5%;
+}
+
+#firstSlide {
+  display: flex;
+  padding: 0 7%;
+}
+
+#tinetiImg {
+  height: 80%;
+  margin-top: 14px;
+}
+
+#secondSlide {
+  display: flex;
+  padding: 0 7%;
+}
+
+#thirdSlide {
+  display: flex;
+  padding: 0 7%;
+}
+
+#partnersHeader {
+  font-size: 24px;
+  padding-left: 11%;
+  padding-top: 2%;
+  color: rgb(244, 244, 244);
+  margin: 0;
+} */
+
+/* aqedan */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(43, 43, 43);
+}
+
+#partnersHeader {
+  font-size: 24px;
+  padding-left: 11%;
+  padding-top: 2%;
+  color: rgb(244, 244, 244);
+  margin: 0;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  min-width: 100%;
+  padding: 8% 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-img {
+  width: calc(100% / 5);
+  box-sizing: border-box;
+  height: 85%;
+  margin-left: 11%;
+}
+
+#tinetiImg {
+  height: 55%;
+  margin-top: 13px;
+  margin-right: 13%;
+}
+#tibisilizImg {
+  margin-top: 13px;
+  margin-right: 13%;
+}
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slider-control {
+  cursor: pointer;
+  font-size: 90px;
+  background: transparent;
+  border: none;
+  outline: none;
+}

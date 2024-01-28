@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(26, 30, 31);
+  padding: 1%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header.opaque {
+  opacity: 0.95;
+  transition: background-color 0.3s ease;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  color: white;
+  margin-right: 11%;
+  gap: 3rem;
+}
+
+#academy {
+  padding-right: 33%;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -20px;
+}
+
+#academy img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: -20px;
+}
+
+#home a,
+#tbcIt a,
+#tbcxUsaid a,
+#risks a {
+  color: white;
+  text-decoration: none;
+}
+
+#tbcxUsaid a {
+  color: rgb(57, 169, 218);
+}
+
+#home :hover,
+#tbcIt :hover,
+#risks :hover {
+  color: rgb(57, 169, 218);
+  text-decoration: none;
+}

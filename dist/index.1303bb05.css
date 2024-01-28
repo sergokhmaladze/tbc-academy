@@ -1,0 +1,275 @@
+.courses-container {
+  background-color: #161616;
+}
+
+.courses-header {
+  color: #dfdbdb;
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 11%;
+  font-size: 24px;
+}
+
+.courses {
+  color: #dfdbdb;
+  grid-template-rows: repeat(3, minmax(420px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 60px 130px;
+  display: grid;
+}
+
+.grid-item {
+  border: .5px solid #3f4040;
+  border-radius: 8px;
+  width: 70%;
+  padding: 40px;
+}
+
+.grid-item img {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 300px;
+  height: 150px;
+  margin: -40px 0 0 -37.5px;
+}
+
+.grid-item h3 {
+  margin: 15% 0 0 -7px;
+  font-size: 22px;
+}
+
+.grid-item p {
+  margin: 25px 0 0 -5px;
+}
+
+.grid-item div {
+  color: #0bc1f9;
+  margin-top: 40px;
+  margin-left: -15px;
+  font-size: 18px;
+}
+
+.description-sec {
+  display: flex;
+  position: relative;
+}
+
+.desc-image img {
+  width: 100%;
+  height: 355px;
+  display: block;
+}
+
+.desc-image h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bolder;
+  position: absolute;
+  top: 18%;
+  left: 11%;
+}
+
+.desc-image h2 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 11%;
+}
+
+.desc-text {
+  text-align: start;
+  color: #fff;
+  background-color: #2b2b2b;
+  height: 100%;
+  padding: 2% 10% 45px;
+  font-size: 30px;
+  line-height: 1.6em;
+  position: relative;
+}
+
+#learnMore {
+  font-size: 22px;
+}
+
+html, body {
+  margin: 0;
+}
+
+.header {
+  z-index: 100;
+  background-color: #1a1e1f;
+  padding: 1%;
+  position: sticky;
+  top: 0;
+}
+
+.header-menu {
+  color: #fff;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3rem;
+  margin-right: 11%;
+  list-style-type: none;
+  display: flex;
+}
+
+#academy {
+  margin-top: -20px;
+  padding-right: 33%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#academy img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -20px;
+}
+
+.slider-container {
+  background-color: #2b2b2b;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#partnersHeader {
+  color: #f4f4f4;
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 11%;
+  font-size: 24px;
+}
+
+.slider-wrapper {
+  transition: transform .5s ease-in-out;
+  display: flex;
+}
+
+.slider-item {
+  box-sizing: border-box;
+  justify-content: space-between;
+  min-width: 100%;
+  padding: 8% 0;
+  display: flex;
+}
+
+.slider-img {
+  box-sizing: border-box;
+  width: 20%;
+  height: 85%;
+  margin-left: 11%;
+}
+
+#tinetiImg {
+  height: 55%;
+  margin-top: 13px;
+  margin-right: 13%;
+}
+
+#tibisilizImg {
+  margin-top: 13px;
+  margin-right: 13%;
+}
+
+.slider-controls {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-control {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 90px;
+}
+
+.faq-container {
+  background-color: #161616;
+  margin: 0;
+}
+
+.faq-container h5 {
+  color: #fff;
+  margin: 0;
+  padding: 7% 0 0 13.5%;
+  font-size: 25px;
+}
+
+.layout {
+  width: 75%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.accordion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.accordion__question p {
+  color: #fff;
+  margin: 5px;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.accordion__answer p {
+  color: #fff;
+  margin: 5px;
+  padding: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.accordion:hover {
+  cursor: pointer;
+}
+
+.accordion__answer {
+  display: none;
+}
+
+.accordion.active .accordion__answer {
+  display: block;
+}
+
+.faq-answer-header {
+  margin: 10px 0 35px -5px;
+  display: block;
+}
+
+.first-stage, .second-stage, .third-stage, .fourth-stage {
+  margin: 0 0 5px 10px;
+  display: block;
+}
+
+.faq-important-message {
+  margin: 35px 0 0 -15px;
+  display: block;
+}
+
+svg {
+  color: #fff;
+}
+
+.faq-down-arrow {
+  color: #f4f4f4;
+  margin-left: 100%;
+}
+
+
+
+/*# sourceMappingURL=index.1303bb05.css.map */

@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+}
+
+.header {
+  z-index: 100;
+  background-color: #1a1e1f;
+  padding: 1%;
+  position: sticky;
+  top: 0;
+}
+
+.header-menu {
+  color: #fff;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3rem;
+  margin-right: 11%;
+  list-style-type: none;
+  display: flex;
+}
+
+#academy {
+  margin-top: -20px;
+  padding-right: 33%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#academy img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -20px;
+}
+
+/*# sourceMappingURL=index.fc9f5098.css.map */

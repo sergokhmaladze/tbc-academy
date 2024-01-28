@@ -1,0 +1,61 @@
+.courses-container {
+  background-color: rgb(22, 22, 22);
+}
+
+.courses-header {
+  font-size: 24px;
+  padding-left: 11%;
+  padding-top: 2%;
+  color: rgb(223, 219, 219);
+  margin: 0;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, minmax(420px, 1fr));
+  gap: 20px;
+  padding: 60px 130px;
+  color: rgb(223, 219, 219);
+}
+
+.grid-item {
+  width: 70%;
+  padding: 40px;
+  border: solid;
+  border-radius: 8px;
+  border-color: rgb(63, 64, 64);
+  border-width: 0.5px;
+}
+
+.grid-item img {
+  width: 300px;
+  height: 150px;
+  margin: -40px 0 0 -37.5px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-item h3 {
+  margin: 15% 0 0 -7px;
+  font-size: 20px;
+}
+
+.grid-item p {
+  margin: 25px 0 0 -5px;
+}
+
+.grid-item b {
+  display: block;
+  position: relative;
+  color: #0bc1f9;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-left: -15px;
+}
+
+.grid-item b:hover {
+  cursor: pointer;
+  color: #1990b5;
+  transition: all 0.3s ease-in-out;
+}

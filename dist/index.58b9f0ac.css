@@ -1,0 +1,39 @@
+.description-sec {
+  display: flex;
+  position: relative;
+}
+
+.desc-image img {
+  width: 100%;
+  height: 355px;
+  display: block;
+}
+
+.desc-image h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bolder;
+  position: absolute;
+  top: 18%;
+  left: 11%;
+}
+
+.desc-image h2 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 11%;
+}
+
+.desc-text {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  height: 100%;
+  font-size: 30px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.58b9f0ac.css.map */
