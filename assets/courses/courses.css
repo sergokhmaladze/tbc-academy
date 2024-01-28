@@ -16,10 +16,11 @@
   grid-template-rows: repeat(3, minmax(420px, 1fr));
   gap: 20px;
   color: rgb(223, 219, 219);
+  padding-bottom: 60px;
 }
 
 .grid-item {
-  width: 70%;
+  width: 58%;
   padding: 40px;
   border: solid;
   border-radius: 8px;

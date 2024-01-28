@@ -1,7 +1,7 @@
 .description-sec {
   display: flex;
   position: relative;
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .description-sec img {
@@ -51,10 +51,3 @@
 #learnMore {
   font-size: 22px;
 }
-
-/* @media only screen and (min-width: 1601px) and (max-width: 1980) {
-  .desc-image img {
-    width: 150%;
-    object-fit: fill;
-  }
-} */
