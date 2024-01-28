@@ -1,3 +1,12 @@
+//for header scrolling
+window.onscroll = function() {
+    scrollFunction();
+};
+function scrollFunction() {
+    var header = document.querySelector(".header");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) header.classList.add("opaque");
+    else header.classList.remove("opaque");
+}
 //for course elements
 document.addEventListener("DOMContentLoaded", ()=>{
     const courseContainer = document.getElementById("courses");
@@ -73,7 +82,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
       <img src=${item.url} />
       <h3>${item.title}</h3>
       <p>${item.description}</p>
-      <div>${item.couresDetails}</div>
+      <b>${item.couresDetails}</b>
       
     `;
         courseContainer.appendChild(courseItem);
@@ -88,7 +97,6 @@ function showSlide(index) {
     const newTransformValue = -index * slideWidth;
     sliderWrapper.style.transform = `translateX(${newTransformValue}px)`;
 }
-// ❯❮  icons
 function nextSlide() {
     currentIndex = (currentIndex + 1) % totalSlides;
     showSlide(currentIndex);

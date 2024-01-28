@@ -1,6 +1,8 @@
 html,
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(43, 43, 43);
 }
 
 .header {
@@ -17,12 +19,15 @@ header.opaque {
 
 .header-menu {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
   list-style-type: none;
   color: white;
   margin-right: 11%;
   gap: 3rem;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #academy {
@@ -33,27 +38,34 @@ header.opaque {
   margin-top: -20px;
 }
 
-#academy img {
+.logo img {
   height: 60px;
   width: 60px;
   margin-bottom: -20px;
 }
 
-#home a,
-#tbcIt a,
-#tbcxUsaid a,
-#risks a {
+.logo {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav a {
   color: white;
   text-decoration: none;
 }
 
-#tbcxUsaid a {
-  color: rgb(57, 169, 218);
-}
-
-#home :hover,
-#tbcIt :hover,
-#risks :hover {
+.header-nav a:hover,
+.header-nav a.active {
   color: rgb(57, 169, 218);
   text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container-fluid {
+  max-width: 100%;
 }

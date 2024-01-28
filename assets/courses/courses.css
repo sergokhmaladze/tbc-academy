@@ -4,8 +4,8 @@
 
 .courses-header {
   font-size: 24px;
-  padding-left: 11%;
-  padding-top: 2%;
+  padding-bottom: 60px;
+  padding-top: 30px;
   color: rgb(223, 219, 219);
   margin: 0;
 }
@@ -15,7 +15,6 @@
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-template-rows: repeat(3, minmax(420px, 1fr));
   gap: 20px;
-  padding: 60px 130px;
   color: rgb(223, 219, 219);
 }
 
